@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple D3 Assignment Site</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+    <div class="body-container">
+
+        <header class="header-bar">
+            <nav class="nav-container">
+                <h1 class="site-title">Simple Data Views</h1>
+                
+                <div class="nav-links">
+                    <a href="#home" class="nav-link" id="link-home">Page 1 Home</a>
+                    <a href="#data1" class="nav-link" id="link-data1">Page 2 Bar Chart</a>
+                    <a href="#data2" class="nav-link" id="link-data2">Page 3 Simple Plot</a>
+                    <a href="#page4" class="nav-link" id="link-page4">Page 4</a>
+                    <a href="#page5" class="nav-link" id="link-page5">Page 5</a>
+                    <a href="#page6" class="nav-link" id="link-page6">Page 6</a>
+                    <a href="#page7" class="nav-link" id="link-page7">Page 7</a>
+                    <a href="#page8" class="nav-link" id="link-page8">Page 8</a>
+                    <a href="#page9" class="nav-link" id="link-page9">Page 9</a>
+                    <a href="#page10" class="nav-link" id="link-page10">Page 10</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            
+            <div id="page-home" class="page-content">
+                <div class="page-card">
+                    <h2 class="content-title">Welcome to our Simple Assignment Site</h2>
+                    <p>
+                        This website shows how we can use D3 js to make data visualizations. 
+                        Use the navigation links above to see the different pages. 
+                        Pages 2 and 3 have simple examples of D3 charts.
+                    </p>
+                </div>
+            </div>
+
+            <div id="page-data1" class="page-content hidden">
+                <div class="page-card">
+                    <h2 class="content-title">Page 2 Simple Bar Chart using D3</h2>
+                    <p>
+                        This chart shows the number of fictional sales for five different products.
+                        It is a very basic example of using D3 to draw elements based on data.
+                    </p>
+                    <div id="chart-bar" class="chart-container"></div>
+                </div>
+            </div>
+
+            <div id="page-data2" class="page-content hidden">
+                <div class="page-card">
+                    <h2 class="content-title">Page 3 Simple Circle Plot using D3</h2>
+                    <p>
+                        This plot shows circles on the page. The size of each circle is based on its value.
+                        This is another simple visualization technique.
+                    </p>
+                    <div id="chart-circles" class="chart-container"></div>
+                </div>
+            </div>
+            
+            <div id="page-page4" class="page-content hidden">
+                 <div class="page-card"><h2 class="content-title">Page 4 Placeholder</h2><p>Content for Page 4 goes here.</p></div>
+            </div>
+            <div id="page-page5" class="page-content hidden">
+                 <div class="page-card"><h2 class="content-title">Page 5 Placeholder</h2><p>Content for Page 5 goes here.</p></div>
+            </div>
+            <div id="page-page6" class="page-content hidden">
+                 <div class="page-card"><h2 class="content-title">Page 6 Placeholder</h2><p>Content for Page 6 goes here.</p></div>
+            </div>
+            <div id="page-page7" class="page-content hidden">
+                 <div class="page-card"><h2 class="content-title">Page 7 Placeholder</h2><p>Content for Page 7 goes here.</p></div>
+            </div>
+            <div id="page-page8" class="page-content hidden">
+                 <div class="page-card"><h2 class="content-title">Page 8 Placeholder</h2><p>Content for Page 8 goes here.</p></div>
+            </div>
+            <div id="page-page9" class="page-content hidden">
+                 <div class="page-card"><h2 class="content-title">Page 9 Placeholder</h2><p>Content for Page 9 goes here.</p></div>
+            </div>
+            <div id="page-page10" class="page-content hidden">
+                 <div class="page-card"><h2 class="content-title">Page 10 Placeholder</h2><p>Content for Page 10 goes here.</p></div>
+            </div>
+
+        </main>
+        
+        <footer class="footer-bar">
+            <div class="footer-text">
+                Simple Website Assignment using D3 js
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
